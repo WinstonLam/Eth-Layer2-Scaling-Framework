@@ -3,14 +3,18 @@
 This repository serves as a testing suite to perform tests using a [Hardhat](https://hardhat.org/) deployed Ethereum blockchain network. It's purpose is to test and demonstrate the performance and efficiency of different transaction types in the Ethereum network, with a focus on Layer 2 scaling solutions.
 
 ## Setup and Configuration
+1. To get the required node packages run
+    ```
+    npm install
+    ```
 
-1. Create a `.env` file in the root directory of the project with the following keys:
+2. Create a `.env` file in the root directory of the project with the following keys:
     ```
     INFURA_API_KEY=your_infura_api_key
     POLYGON_API_KEY=your_polygon_api_key
     METAMASK_PRIVATE_KEY=your_metamask_private_key
     ```
-2. Update `hardhat.config.js` to read these keys from `.env` file and connect to the required networks.
+3. Update `hardhat.config.js` to read these keys from `.env` file and connect to the required networks.
 
 ## Repository Structure
 

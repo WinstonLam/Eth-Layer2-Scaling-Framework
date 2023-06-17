@@ -1,0 +1,32 @@
+{
+  "sidechain": {
+    "polygon_mumbai": {
+      "hashTokenAddress": "0x4a712b95d2e40eb124b94f58a8ffb4f55f5b7ada",
+      "contractAddress": "0xB6b570a05Ea44dcFc6EcC7dBcFDCc9f9ab66A693",
+      "fx": {
+        "contractAddress": "0xAF83d8cF6a0b0970c883bB8075B3646842596856"
+      }
+    },
+    "optimism_goerli": {
+      "contractAddress": "0x31E8cf12B07e68Ea99086168438237CBA2Dae93d",
+      "hashTokenAddress": "0xe8976e6f0BD51802D2B8b1e33c44DDf10Aabd04a"
+    },
+    "sepolia": {
+      "hashTokenAddress": "0x6bb7E3fE757CE687188aA0e3bd1aE6b2f19dbeCc",
+      "contractAddress": "0xdFa4F23433F6DA7747aB6B33354f9e3F338Ec7A8"
+    }
+  },
+  "mainchain": {
+    "sepolia": {
+      "contractAddress": "0x5Ae80dEC4279e8F513f09f44a94c30F24e407E22",
+      "hashTokenAddress": "0x44A816f8F6A8F6c113d8843e4F04dF1a0F5Fc78D"
+    },
+    "goerli": {
+      "hashTokenAddress": "0xad24eb3cb90a3339bf4803211d8bed3151cf7308",
+      "contractAddress": "0x40f087c3a7bDf55F276A3442B356b743B2fFC3fF",
+      "fx": {
+        "contractAddress": "0xBc29570463147bcfb5c638EE348388147294Df63"
+      }
+    }
+  }
+}

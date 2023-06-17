@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2"
+  xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:CustomizationID>urn:fdc:peppol.eu:poacc:trns:order:3</cbc:CustomizationID>
+    <cbc:ProfileID schemeID="Profile">urn:fdc:peppol.eu:poacc:bis:order_only:3</cbc:ProfileID>
+    <cbc:ID>200009.1</cbc:ID>
+    <cbc:IssueDate>2023-03-20</cbc:IssueDate>
+    <cbc:IssueTime>12:30:00</cbc:IssueTime>
+    <cbc:Note>Information text for the whole order</cbc:Note>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    <cac:ValidityPeriod>
+        <cbc:EndDate>2023-03-31</cbc:EndDate>
+    </cac:ValidityPeriod>
+    <cac:BuyerCustomerParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="0106">64064808</cbc:EndpointID>
+            <cac:PartyName>
+                <cbc:Name>Janssen Logistiek</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Rathus 5</cbc:StreetName>
+                <cbc:AdditionalStreetName>2nd floor</cbc:AdditionalStreetName>
+                <cbc:CityName>Helsingborg</cbc:CityName>
+                <cbc:PostalZone>100015</cbc:PostalZone>
+                <cbc:CountrySubentity>RegionX</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Jansens Logistiek BV</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Telephone>123456</cbc:Telephone>
+                <cbc:ElectronicMail>pelle@jansen.nl</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:BuyerCustomerParty>
+    <cac:SellerSupplierParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="0106">69729492</cbc:EndpointID>
+            <cac:PartyName>
+                <cbc:Name>Penceel Productie BV</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Kalverstraat 22</cbc:StreetName>
+                <cbc:AdditionalStreetName>suite12</cbc:AdditionalStreetName>
+                <cbc:CityName>Amsterdam</cbc:CityName>
+                <cbc:PostalZone>1000AA</cbc:PostalZone>
+                <cbc:CountrySubentity>RegionX</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>NL</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Penceel Productie BV</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Telephone>34557</cbc:Telephone>
+                <cbc:ElectronicMail>lars@Penceel.nl</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:SellerSupplierParty>
+    <cac:OriginatorCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Penceel Productie BV</cbc:Name>
+            </cac:PartyName>
+            <cac:Contact>
+                <cbc:Telephone>346788</cbc:Telephone>
+                <cbc:ElectronicMail>sven@Penceel.nl</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:OriginatorCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>Rathus 5</cbc:StreetName>
+                <cbc:AdditionalStreetName>2nd floor</cbc:AdditionalStreetName>
+                <cbc:CityName>Helsingborg</cbc:CityName>
+                <cbc:PostalZone>100015</cbc:PostalZone>
+                <cbc:CountrySubentity>RegionX</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+        <cac:RequestedDeliveryPeriod>
+            <cbc:StartDate>2023-02-10</cbc:StartDate>
+            <cbc:EndDate>2023-02-25</cbc:EndDate>
+        </cac:RequestedDeliveryPeriod>
+        <cac:DeliveryParty>
+            <cac:PartyName>
+                <cbc:Name>CargoLedger Trucking</cbc:Name>
+            </cac:PartyName>
+            <cac:Contact>
+                <cbc:Name>Per</cbc:Name>
+                <cbc:Telephone>987098709</cbc:Telephone>
+                <cbc:ElectronicMail>admin@cargoledger.nl</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:DeliveryParty>
+    </cac:Delivery>
+    <cac:DeliveryTerms>
+        <cbc:ID schemeAgencyID="6" schemeID="IMCOTERM">FOT</cbc:ID>
+        <cbc:SpecialTerms>CAD</cbc:SpecialTerms>
+        <cac:DeliveryLocation>
+            <cbc:ID>STO</cbc:ID>
+        </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+    <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+        <cbc:AllowanceChargeReason>Transport documents</cbc:AllowanceChargeReason>
+        <cbc:Amount currencyID="EUR">100</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+        <cbc:AllowanceChargeReason>Total order value discount</cbc:AllowanceChargeReason>
+        <cbc:Amount currencyID="EUR">100</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">100</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:AnticipatedMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">6225</cbc:LineExtensionAmount>
+        <cbc:AllowanceTotalAmount currencyID="EUR">100</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="EUR">100</cbc:ChargeTotalAmount>
+        <cbc:PayableAmount currencyID="EUR">6225</cbc:PayableAmount>
+    </cac:AnticipatedMonetaryTotal>
+    <cac:OrderLine>
+        <cbc:Note>Freetext note on line 1</cbc:Note>
+        <cac:LineItem>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="LTR">120</cbc:Quantity>
+            <cbc:LineExtensionAmount currencyID="EUR">6000</cbc:LineExtensionAmount>
+            <cbc:PartialDeliveryIndicator>false</cbc:PartialDeliveryIndicator>
+            <cac:Delivery>
+                <cac:RequestedDeliveryPeriod>
+                    <cbc:StartDate>2023-02-10</cbc:StartDate>
+                    <cbc:EndDate>2023-02-25</cbc:EndDate>
+                </cac:RequestedDeliveryPeriod>
+            </cac:Delivery>
+            <cac:OriginatorParty>
+                <cac:PartyName>
+                    <cbc:Name>Josef K.</cbc:Name>
+                </cac:PartyName>
+            </cac:OriginatorParty>
+            <cac:Price>
+                <cbc:PriceAmount currencyID="EUR">50</cbc:PriceAmount>
+                <cbc:BaseQuantity unitCode="LTR">1</cbc:BaseQuantity>
+            </cac:Price>
+            <cac:Item>
+                <cbc:Description>Red paint</cbc:Description>
+                <cbc:Name>Dieprood</cbc:Name>
+                <cac:SellersItemIdentification>
+                    <cbc:ID>SItemNo001</cbc:ID>
+                </cac:SellersItemIdentification>
+                <cac:AdditionalItemProperty>
+                    <cbc:Name>Paint type</cbc:Name>
+                    <cbc:Value>Acrylic</cbc:Value>
+                </cac:AdditionalItemProperty>
+                <cac:AdditionalItemProperty>
+                    <cbc:Name>Solvant</cbc:Name>
+                    <cbc:Value>Water</cbc:Value>
+                </cac:AdditionalItemProperty>
+            </cac:Item>
+        </cac:LineItem>
+    </cac:OrderLine>
+    <cac:OrderLine>
+        <cbc:Note>Freetext note on line 2</cbc:Note>
+        <cac:LineItem>
+            <cbc:ID>2</cbc:ID>
+            <cbc:Quantity unitCode="C62">15</cbc:Quantity>
+            <cbc:LineExtensionAmount currencyID="EUR">225</cbc:LineExtensionAmount>
+            <cbc:PartialDeliveryIndicator>false</cbc:PartialDeliveryIndicator>
+            <cac:Delivery>
+                <cac:RequestedDeliveryPeriod>
+                    <cbc:StartDate>2023-02-10</cbc:StartDate>
+                    <cbc:EndDate>2023-02-25</cbc:EndDate>
+                </cac:RequestedDeliveryPeriod>
+            </cac:Delivery>
+            <cac:OriginatorParty>
+                <cac:PartyName>
+                    <cbc:Name>Josef K.</cbc:Name>
+                </cac:PartyName>
+            </cac:OriginatorParty>
+            <cac:Price>
+                <cbc:PriceAmount currencyID="EUR">15</cbc:PriceAmount>
+                <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
+            </cac:Price>
+            <cac:Item>
+                <cbc:Description>Very good pencils for red paint.</cbc:Description>
+                <cbc:Name>Pensel 20 mm</cbc:Name>
+                <cac:SellersItemIdentification>
+                    <cbc:ID>SItemNo011</cbc:ID>
+                </cac:SellersItemIdentification>
+                <cac:AdditionalItemProperty>
+                    <cbc:Name>Hair color</cbc:Name>
+                    <cbc:Value>Black</cbc:Value>
+                </cac:AdditionalItemProperty>
+                <cac:AdditionalItemProperty>
+                    <cbc:Name>Width</cbc:Name>
+                    <cbc:Value>20mm</cbc:Value>
+                </cac:AdditionalItemProperty>
+            </cac:Item>
+        </cac:LineItem>
+    </cac:OrderLine>
+</Order>
